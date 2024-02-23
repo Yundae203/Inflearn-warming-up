@@ -1,3 +1,4 @@
+package casino;
 
 public class Dealer {
 
@@ -13,8 +14,8 @@ public class Dealer {
         return new Dealer(dice, note);
     }
 
-    public void rollDiceMultipleTimes(int numberOfRoll) {
-        for (int i=0; i<numberOfRoll; i++) {
+    public void rollDiceMultipleTimes(int rollTimes) {
+        for (int i=0; i<rollTimes; i++) {
             note.record(dice.throwDice());
         }
     }

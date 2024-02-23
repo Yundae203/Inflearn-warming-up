@@ -1,3 +1,5 @@
+package casino;
+
 abstract public class Dice {
     private final int faces;
 

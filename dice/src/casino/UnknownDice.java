@@ -1,3 +1,4 @@
+package casino;
 
 public class UnknownDice extends Dice {
 
